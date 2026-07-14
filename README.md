@@ -129,3 +129,9 @@ We adhere to a standard branch-and-PR development lifecycle:
 1. **Feature Branches:** Cut your branch from `develop` using a naming convention like `feature/abc-123-short-description`.
 2. **Pre-commit Validation:** Run `yarn lint`, `yarn tsc`, and `yarn test` locally before committing code.
 3. **Pull Requests:** Open a PR against `develop`. The CI pipeline **must pass** entirely, and it requires at least one peer approval before it can be merged.
+
+APP_ENV='development'
+API_BASE_URL='https://zbkoocnwycddfdoumvhi.supabase.co/rest/'
+API_KEY='sb_publishable_RQHgRfCe9xJKoJ-paOp-mQ_kTavs-JC'
+ENABLE_LOGS=true
+ENCRYPTION_KEY=''
