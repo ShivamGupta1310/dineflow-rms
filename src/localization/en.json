@@ -1,0 +1,422 @@
+{
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "back": "Back",
+    "yes": "Yes",
+    "no": "No",
+    "home": "Home",
+    "noInternet": {
+      "title": "No Internet Connection",
+      "message": "Please check your network and try again."
+    },
+    "dineflow": "DineFlow",
+    "managementSubText": "Restaurant Management Made Simple",
+    "unknownError": "Unknown error",
+    "continue": "Continue",
+    "table": "Table",
+    "orders": "Orders",
+    "menu": "Menu",
+    "profile": "Profile",
+    "reservation": "Reservation",
+    "employee": "Employee",
+    "noItemsFound": "No items found",
+    "comingSoon": "Coming soon! This feature is not available yet.",
+    "done": "Done",
+    "questionMark": "?",
+    "selectAll": "Select All",
+    "new": "New",
+    "update": "Update",
+    "create": "Create",
+    "edit": "Edit",
+    "updated": "Updated",
+    "successful": "successful",
+    "refresh": "Refresh",
+    "days": {
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat",
+      "sun": "Sun"
+    }
+  },
+  "auth": {
+    "logout": "Logout",
+    "logoutConfirmation": {
+      "title": "Confirmation",
+      "subtitle": "Are you sure you want to logout?"
+    },
+    "login": {
+      "welcomeTitle": "Welcome Back!",
+      "welcomeSubtitle": "Login to access your restaurant dashboard",
+      "mobileLabel": "Mobile",
+      "mobilePlaceholder": "Enter your mobile number",
+      "rememberMe": "Remember me",
+      "continue": "Continue",
+      "waiterLogin": "Waiter Login",
+      "errors": {
+        "generic": "Something went wrong. Please try again.",
+        "otpFailed": "Unable to send OTP. Please try again.",
+        "mobileRequired": "Mobile number is required",
+        "mobileInvalid": "Please enter a valid mobile number"
+      }
+    },
+    "verifyOtp": {
+      "title": "OTP Verification",
+      "subtitle": "Please enter the 6-digit OTP sent to your registered mobile number",
+      "enterOtpLabel": "Enter OTP",
+      "verifyButton": "Verify",
+      "otpSuccessMsg": "OTP verified successfully.",
+      "invalidOtpErrMsg": "Unable to verify OTP. Please try again.",
+      "expiredOtpMsg": "Invalid or expired OTP",
+      "otpVerificationFail": "OTP verification failed"
+    },
+    "onBoarding": {
+      "title": "Welcome Back!",
+      "subtitle": "Login to access your restaurant dashboard",
+      "label": "Enter Access Code",
+      "passcodeLabel": "Enter the access code provided by the owner",
+      "or": "or",
+      "scanQRCode": "Scan QR Code",
+      "restaurantLinkSuccess": "Restaurant linked successfully.",
+      "verificationFailedTitle": "Verification failed",
+      "verificationFailedMessage": "Invalid passcode. Please contact restaurant owner.",
+      "verificationErrorMessage": "Unable to verify passcode",
+      "scanDescription": "Scan from owner’s dashboard"
+    },
+    "barcodeScanner": {
+      "description": "Scan QR code from owner’s \n dashboard for login",
+      "scanQRCodeOnly": "Please scan only QR code.",
+      "invalidCodeTitle": "Invalid code"
+    },
+    "qrCodeAccess": {
+      "description": "Scan This QR Code to Connect as a Waiter or \n Cook & you also login using access code.",
+      "accessCode": "Access code",
+      "welcomeQuote": "\"Good to See You Again!\nLet's make today productive.\"",
+      "accessCodeCopied": "Access code copied successfully.",
+      "errorAccessCodeCopied": "Unable to copy access code. Please try again."
+    },
+    "validation": {
+      "accesscodeRequired": "Access code is required"
+    },
+    "cameraPermission": {
+      "title": "Camera Permission Required",
+      "settingsMessage": "Camera permission is required to scan QR codes. Please enable it from App Settings.",
+      "requestMessage": "This app needs camera access to scan QR codes.",
+      "allow": "Allow",
+      "deny": "Deny",
+      "openSettings": "Open Settings",
+      "cameraPermissionError": "Camera permission error:"
+    },
+    "language": {
+      "changeLanguage": "Change Language",
+      "english": "English",
+      "arabic": "Arabic",
+      "apply": "Apply"
+    }
+  },
+  "owner": {
+    "billSummary": {
+      "tableNo": "Table No",
+      "billNo": "Bill no",
+      "items": "Items",
+      "qty": "Qty:",
+      "bill": "Bill",
+      "subTotal": "Sub Total",
+      "cgst": "CGST",
+      "sgst": "SGST",
+      "discount": "Discount",
+      "add": "Add",
+      "total": "Total",
+      "share": "Share",
+      "markAsPaid": "Mark as Paid",
+      "markAsPaidConfirmation": "Are you sure you want to mark this bill as paid?",
+      "markAsPaidSuccess": "Bill marked as paid",
+      "billSummary": "Bill Summary",
+      "unableToLoadBillSummary": "Unable to load bill summary",
+      "generatingInvoice": "Generating invoice",
+      "pdfNotFound": "PDF not found",
+      "pdfFailed": "PDF generation failed",
+      "paymentSuccessful": "Payment Successful!",
+      "paidOn": "Paid on",
+      "thankYou": "Thank You",
+      "weLoveToSeeYouAgain": "We Love to see you again"
+    },
+    "reservation": {
+      "header": {
+        "title": "Reservation",
+        "subtitle": "Manage all restaurant reservation"
+      },
+      "confirmReservation": {
+        "title": "Confirm Reservation",
+        "subtitle": "Are you sure you want to\nconfirm reservation of",
+        "successTitle": "Confirm Reservation",
+        "successSubtitle": "reservation\nhas been confirmed\nsuccessfully."
+      },
+      "cancelReservation": {
+        "title": "Cancel Reservation",
+        "subtitle": "Are you sure you want to\ncancel reservation of ",
+        "successTitle": "Reservation Cancelled",
+        "successSubtitle": "The reservation has been cancelled successfully."
+      },
+      "reservedTable": {
+        "title": "Reserve Table",
+        "subtitle": "Are you sure you want to reserve table for",
+        "successTitle": "Reserved Table",
+        "successSubtitle": "{{name}}'s table has been reserved successfully.",
+        "availableTimeSlots": "Available Time Slots",
+        "availableTable": "Available Table",
+        "tablesCount": "{{count}} Tables",
+        "tablesCount_one": "1 Table",
+        "selectTable&Time": "Select Time & Table",
+        "cancel": "Cancel",
+        "reservedTableBtn": "Reserved Table",
+        "failReservedTable": "Failed to reserve table",
+        "failFetchAvailableTable": "Failed to fetch available table",
+        "failFetchAvailableSlot": "Failed to fetch available slot",
+        "noSlotsAvailable": "No slots available"
+      },
+      "callingNotSupportedOnDevice": "Calling is not supported on this device.",
+      "unableToOpenDialer": "Unable to open the dialer.",
+      "searchPlaceholder": "Search guest name, mobile number",
+      "empty": "No reservations found.",
+      "tabs": {
+        "all": "All"
+      },
+      "status": {
+        "pending": "Pending",
+        "needConfirmation": "Need Confirmation",
+        "confirmed": "Confirmed",
+        "reserved": "Reserved",
+        "cancelled": "Cancelled"
+      },
+      "details": {
+        "title": "Reservation Details",
+        "summaryTitle": "Reservation Summary",
+        "bookingId": "Booking ID",
+        "reservationType": "Reservation Type",
+        "createdOn": "Created on",
+        "source": "Source",
+        "specialNotes": "Special Notes",
+        "editReservation": "Edit Reservation",
+        "callGuest": "Call Guest",
+        "activityTimeline": "Activity Timeline",
+        "reservationTypes": {
+          "regular": "Regular",
+          "birthday": "Birthday",
+          "anniversary": "Anniversary",
+          "corporate": "Corporate",
+          "vip": "VIP",
+          "event": "Event",
+          "group": "Group"
+        },
+        "sourceTypes": {
+          "walk_in": "Walk In",
+          "phone": "Phone",
+          "website": "Website",
+          "mobile_app": "Mobile App",
+          "staff": "Staff",
+          "zomato": "Zomato",
+          "swiggy": "Swiggy",
+          "google": "Google"
+        }
+      },
+      "noReservationAvailable": "No Reservation Available",
+      "noReservationFoundDesc": "No reservation found for the selected filters.\nTry changing the filters or check back later."
+    },
+    "newReservation": {
+      "header": {
+        "title": "Reservation"
+      },
+      "timeSlotTitle": "Select Time Slot",
+      "guestDetail": "Guest Details",
+      "fullName": "Full Name",
+      "enterFullName": "Enter Full Name",
+      "guestCount": "Guest Count",
+      "enterGuestCount": "Enter Guest Count",
+      "mobile": "Mobile",
+      "enterMobileNumber": "Enter your mobile number",
+      "reservationType": "Reservation Type",
+      "source": "Source",
+      "notes": "Notes",
+      "addSpecialNotes": "Add Special Notes",
+      "createReservation": "Create Reservation",
+      "reservationTypes": {
+        "regular": "Regular",
+        "birthday": "Birthday",
+        "anniversary": "Anniversary",
+        "corporate": "Corporate",
+        "vip": "VIP",
+        "event": "Event",
+        "group": "Group"
+      },
+      "sourceTypes": {
+        "walkIn": "Walk In",
+        "phone": "Phone",
+        "website": "Website",
+        "mobileApp": "Mobile App",
+        "staff": "Staff",
+        "zomato": "Zomato",
+        "swiggy": "Swiggy",
+        "google": "Google"
+      },
+      "successTitle": "Reservation {{status}}!",
+      "reservationCreatedSuccess": "{{name}}'s Reservation {{status}} successfully.",
+      "error": {
+        "typeError": "Reservation type not found.",
+        "sourceError": "Reservation source not found.",
+        "timeSlotError": "Unable to load available time slots. Please try again."
+      }
+    },
+    "dashboard": {
+      "header": {
+        "greeting": "Hey,",
+        "role": "Restaurant Owner"
+      },
+      "summary": {
+        "salesTitle": "Today's Sales",
+        "periodThisWeek": "This Week"
+      },
+      "activeTables": {
+        "title": "Active Tables",
+        "viewAll": "View All",
+        "empty": "No active tables right now",
+        "unknownTime": "--:--"
+      },
+      "stats": {
+        "reservedTable": "Reserved\nTable",
+        "availableTables": "Available\nTables",
+        "totalOrders": "Total\nOrders"
+      },
+      "salesRevenue": {
+        "customToggle": "Custom Chart",
+        "giftedToggle": "Gifted Chart",
+        "title": "Sales Revenue",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "weeklyEarning": "Weekly Earning",
+        "monthlyEarning": "Monthly Earning"
+      }
+    },
+    "tables": {
+      "tables": "Tables",
+      "tableDesc": "Manage all restaurant tables",
+      "allTables": "All Tables",
+      "noTableAvailable": "No tables available",
+      "statusGuide": "Status Guide",
+      "statusGuideDesc": "Understand table Status by Colors",
+      "available": "Available",
+      "availableDesc": "Table is free and ready for guests.",
+      "occupied": "Occupied",
+      "occupiedDesc": "Table is currently occupied.",
+      "reserved": "Reserved",
+      "reservedDesc": "Table is reserved for a guest.",
+      "readyToPay": "Ready to Pay",
+      "readyToPayDesc": "Bill generated and ready for pay.",
+      "all": "All",
+      "noTablesAvailable": "No Tables Available",
+      "noTablesFoundDesc": "No tables found for the selected filters.\nTry changing the filters or check back later."
+    }
+  },
+  "waiter": {
+    "waiterList": {
+      "unlinkWaiter": "Unlink Waiter",
+      "unlinkWaiterTitle": "Unlink Waiter",
+      "unlinkWaiterSubtitle": "Are you sure you want to\nunlink waiter from the\nrestaurant?",
+      "exitConfirmTitle": "Confirmation",
+      "exitConfirmSubtitle": "Are you sure you want exit?",
+      "noActiveWaitersTitle": "No active waiters found.",
+      "noActiveWaitersSubtitle": "Please contact restaurant administrator."
+    },
+    "headerDescription": "Choose your waiter profile to continue",
+    "waiterPasscode": {
+      "defaultWaiter": "Waiter",
+      "enterPasscode": "Enter Passcode",
+      "passcodeDesc": "Verify your identity by entering your 6-digit waiter passcode.",
+      "login": "Login",
+      "loginSuccess": "Login success",
+      "loginFailed": "Login failed"
+    },
+    "dashboard": {
+      "header": {
+        "greeting": "Hey, {{name}}",
+        "role": "Waiter"
+      },
+      "todayReservation": "Today's Reservation",
+      "activeOrders": "Active Orders",
+      "pendingOrders": "Pending Orders",
+      "activeTables": "Active Tables",
+      "viewAll": "View All"
+    },
+    "tables": {
+      "tables": "Tables",
+      "tableDesc": "Manage all restaurant tables",
+      "allTables": "All Tables",
+      "noTableAvailable": "No tables available",
+      "statusGuide": "Status Guide",
+      "statusGuideDesc": "Understand table Status by Colors",
+      "available": "Available",
+      "availableDesc": "Table is free and ready for guests.",
+      "occupied": "Occupied",
+      "occupiedDesc": "Table is currently occupied.",
+      "reserved": "Reserved",
+      "reservedDesc": "Table is reserved for a guest.",
+      "readyToPay": "Ready to Pay",
+      "readyToPayDesc": "Bill generated and ready for pay.",
+      "all": "All",
+      "bill": "Bill"
+    },
+    "menu": {
+      "foodMenu": "Food Menu",
+      "veg": "Veg",
+      "nonVeg": "Non Veg",
+      "searchPlaceholder": "Search food item",
+      "noFoodItemsAvailable": "No food items available",
+      "item": "Item",
+      "items": "Items",
+      "changeTable": "Change Table",
+      "select": "Select",
+      "openTablesSheet": "Open Table Sheet"
+    },
+    "order": {
+      "itemReadyForServe": "item Ready for Serve",
+      "addItem": "Add Item",
+      "generateBill": "Generate Bill",
+      "items": "Items",
+      "qty": "Qty",
+      "emptyOrder": "No Order Found",
+      "orderSummary": "Order Summary",
+      "guest_one": "{{count}} Guest",
+      "guest_other": "{{count}} Guests",
+      "specialNotesOptional": "Special Notes (Optional)",
+      "confirmedOrder": "Confirm Order",
+      "change": "Change",
+      "thankYouQuote": "“Thank You \n We Love to serve you.”",
+      "quantityLabel": "Qty: {{count}}",
+      "orderConfirmed": "Order Confirmed!",
+      "selectTable": "Select Table",
+      "selectItemMessage": "Select items from the menu to create your order.",
+      "statusUpdated": "Failed to update order status. Please try again."
+    },
+    "generateBill": {
+      "tableNo": "Table No",
+      "orderNo": "Order no",
+      "items": "Items",
+      "qty": "Qty:",
+      "bill": "Bill",
+      "subTotal": "Sub Total",
+      "cgst": "CGST",
+      "sgst": "SGST",
+      "discount": "Discount",
+      "add": "Add",
+      "total": "Total",
+      "generatingBill": "Generating Bill",
+      "billGenerated": "Bill Generated",
+      "successMessage": "Your bill #{{billNumber}} has been generated successfully.",
+      "okay": "Okay",
+      "billGenerationFailed": "Bill generation failed"
+    }
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "common": {
+    "ok": "موافق",
+    "cancel": "إلغاء",
+    "back": "رجوع",
+    "yes": "نعم",
+    "no": "لا",
+    "home": "الرئيسية",
+    "noInternet": {
+      "title": "لا يوجد اتصال بالإنترنت",
+      "message": "يرجى التحقق من الشبكة والمحاولة مرة أخرى."
+    },
+    "dineflow": "داين فلو",
+    "managementSubText": "إدارة المطاعم أصبحت سهلة",
+    "unknownError": "خطأ غير معروف",
+    "continue": "متابعة",
+    "table": "طاولة",
+    "orders": "الطلبات",
+    "menu": "قائمة طعام",
+    "profile": "حساب تعريفي",
+    "reservation": "حجز",
+    "employee": "موظف",
+    "noItemsFound": "لم يتم العثور على عناصر",
+    "comingSoon": "قريبًا! هذه الميزة غير متاحة حاليًا.",
+    "done": "تم",
+    "questionMark": "؟",
+    "selectAll": "تحديد الكل",
+    "new": "جديد",
+    "update": "تحديث",
+    "create": "إنشاء",
+    "edit": "تعديل",
+    "updated": "تم التحديث",
+    "successful": "بنجاح",
+    "refresh": "تحديث",
+    "days": {
+      "mon": "الاثنين",
+      "tue": "الثلاثاء",
+      "wed": "الأربعاء",
+      "thu": "الخميس",
+      "fri": "الجمعة",
+      "sat": "السبت",
+      "sun": "الأحد"
+    }
+  },
+  "auth": {
+    "logout": "تسجيل الخروج",
+    "logoutConfirmation": {
+      "title": "تأكيد",
+      "subtitle": "هل أنت متأكد أنك تريد تسجيل الخروج؟"
+    },
+    "login": {
+      "welcomeTitle": "مرحبًا بعودتك!",
+      "welcomeSubtitle": "سجّل الدخول للوصول إلى لوحة إدارة المطعم",
+      "mobileLabel": "الجوال",
+      "mobilePlaceholder": "أدخل رقم الجوال",
+      "rememberMe": "تذكرني",
+      "continue": "متابعة",
+      "waiterLogin": "تسجيل دخول النادل",
+      "errors": {
+        "generic": "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+        "otpFailed": "تعذر إرسال OTP. يرجى المحاولة مرة أخرى.",
+        "mobileRequired": "رقم الجوال مطلوب",
+        "mobileInvalid": "يرجى إدخال رقم جوال صالح"
+      }
+    },
+    "verifyOtp": {
+      "title": "التحقق من OTP",
+      "subtitle": "يرجى إدخال رمز OTP المكوّن من 6 أرقام المُرسل إلى رقم الجوال المسجل",
+      "enterOtpLabel": "أدخل OTP",
+      "verifyButton": "تحقق",
+      "otpSuccessMsg": "تم التحقق من OTP بنجاح.",
+      "invalidOtpErrMsg": "تعذر التحقق من OTP. يرجى المحاولة مرة أخرى.",
+      "expiredOtpMsg": "OTP غير صالح أو منتهي الصلاحية",
+      "otpVerificationFail": "فشل التحقق من OTP"
+    },
+    "onBoarding": {
+      "title": "مرحبًا بعودتك!",
+      "subtitle": "سجّل الدخول للوصول إلى لوحة إدارة المطعم",
+      "label": "أدخل رمز المرور",
+      "passcodeLabel": "أدخل رمز الوصول المقدم من المالك",
+      "or": "أو",
+      "scanQRCode": "مسح رمز الاستجابة السريعة",
+      "restaurantLinkSuccess": "تم ربط المطعم بنجاح.",
+      "verificationFailedTitle": "فشل التحقق",
+      "verificationFailedMessage": "رمز المرور غير صالح. يرجى التواصل مع مالك المطعم.",
+      "verificationErrorMessage": "تعذر التحقق من رمز المرور",
+      "scanDescription": "امسح من لوحة تحكم المالك"
+    },
+    "barcodeScanner": {
+      "description": "قم بمسح رمز QR من لوحة تحكم المالك \n لتسجيل الدخول",
+      "scanQRCodeOnly": "يرجى مسح رمز QR فقط.",
+      "invalidCodeTitle": "رمز غير صالح"
+    },
+    "qrCodeAccess": {
+      "description": "امسح رمز الاستجابة السريعة هذا للاتصال كنادل أو طاهٍ، ويمكنك أيضًا تسجيل الدخول باستخدام رمز الوصول.",
+      "accessCode": "رمز الوصول",
+      "welcomeQuote": "\"سعيدون برؤيتك مجددًا!\nلنجعل هذا اليوم مثمرًا.\"",
+      "accessCodeCopied": "تم نسخ رمز الوصول بنجاح.",
+      "errorAccessCodeCopied": "تعذر نسخ رمز الوصول. يرجى المحاولة مرة أخرى."
+    },
+    "validation": {
+      "accesscodeRequired": "رمز المرور مطلوب"
+    },
+    "cameraPermission": {
+      "title": "إذن الكاميرا مطلوب",
+      "settingsMessage": "إذن الكاميرا مطلوب لمسح رموز QR. يرجى تفعيله من إعدادات التطبيق.",
+      "requestMessage": "يحتاج هذا التطبيق إلى الوصول إلى الكاميرا لمسح رموز QR.",
+      "allow": "سماح",
+      "deny": "رفض",
+      "openSettings": "فتح الإعدادات",
+      "cameraPermissionError": "خطأ في إذن الكاميرا:"
+    },
+    "language": {
+      "changeLanguage": "تغيير اللغة",
+      "english": "English",
+      "arabic": "العربية",
+      "apply": "تطبيق"
+    }
+  },
+  "owner": {
+    "billSummary": {
+      "tableNo": "رقم الطاولة",
+      "billNo": "رقم الفاتورة",
+      "items": "العناصر",
+      "qty": "الكمية:",
+      "bill": "الفاتورة",
+      "subTotal": "المجموع الفرعي",
+      "cgst": "ضريبة CGST",
+      "sgst": "ضريبة SGST",
+      "discount": "الخصم",
+      "add": "إضافة",
+      "total": "الإجمالي",
+      "share": "مشاركة",
+      "markAsPaid": "تحديد كمدفوع",
+      "markAsPaidConfirmation": "هل أنت متأكد من أنك تريد تحديد هذه الفاتورة كمدفوعة؟",
+      "markAsPaidSuccess": "تم تحديد الفاتورة كمدفوعة",
+      "billSummary": "ملخص مشروع القانون",
+      "unableToLoadBillSummary": "تعذر تحميل ملخص الفاتورة",
+      "generatingInvoice": "إنشاء الفاتورة",
+      "pdfNotFound": "ملف PDF غير موجود",
+      "pdfFailed": "فشل إنشاء ملف PDF",
+      "paymentSuccessful": "تمت عملية الدفع بنجاح!",
+      "paidOn": "تم الدفع في",
+      "thankYou": "شكراً لك",
+      "weLoveToSeeYouAgain": "يسعدنا رؤيتك مرة أخرى"
+    },
+    "reservation": {
+      "header": {
+        "title": "الحجز",
+        "subtitle": "إدارة جميع حجوزات المطعم"
+      },
+      "confirmReservation": {
+        "title": "تأكيد الحجز",
+        "subtitle": "هل أنت متأكد أنك تريد\nتأكيد حجز",
+        "successTitle": "تم تأكيد الحجز",
+        "successSubtitle": "تم تأكيد الحجز بنجاح."
+      },
+      "cancelReservation": {
+        "title": "إلغاء الحجز",
+        "subtitle": "هل أنت متأكد أنك تريد\nإلغاء حجز",
+        "successTitle": "تم إلغاء الحجز",
+        "successSubtitle": "تم إلغاء الحجز بنجاح."
+      },
+      "reservedTable": {
+        "title": "حجز الطاولة",
+        "subtitle": "هل أنت متأكد أنك تريد حجز طاولة لـ",
+        "successTitle": "طاولة محجوزة",
+        "successSubtitle": "تم حجز طاولة {{name}} بنجاح.",
+        "availableTimeSlots": "الفترات الزمنية المتاحة",
+        "availableTable": "الطاولة المتاحة",
+        "tablesCount": "{{count}} طاولات",
+        "tablesCount_one": "طاولة واحدة",
+        "selectTable&Time": "اختر الوقت والطاولة",
+        "cancel": "إلغاء",
+        "reservedTableBtn": "طاولة محجوزة",
+        "failReservedTable": "تعذر حجز الطاولة",
+        "failFetchAvailableTable": "تعذر جلب الجدول المتاح",
+        "failFetchAvailableSlot": "تعذر جلب الموعد المتاح",
+        "noSlotsAvailable": "لا توجد خانات متاحة"
+      },
+      "callingNotSupportedOnDevice": "الاتصال غير مدعوم على هذا الجهاز.",
+      "unableToOpenDialer": "تعذر فتح تطبيق الاتصال.",
+      "searchPlaceholder": "ابحث باسم الضيف أو رقم الجوال",
+      "empty": "لم يتم العثور على حجوزات.",
+      "tabs": {
+        "all": "الكل"
+      },
+      "status": {
+        "pending": "قيد الانتظار",
+        "needConfirmation": "بحاجة إلى تأكيد",
+        "confirmed": "تم التأكيد",
+        "reserved": "محجوز",
+        "cancelled": "ملغي"
+      },
+      "details": {
+        "title": "تفاصيل الحجز",
+        "summaryTitle": "ملخص الحجز",
+        "bookingId": "رقم الحجز",
+        "reservationType": "نوع الحجز",
+        "createdOn": "تاريخ الإنشاء",
+        "source": "المصدر",
+        "specialNotes": "ملاحظات خاصة",
+        "editReservation": "تعديل الحجز",
+        "callGuest": "اتصال بالضيف",
+        "activityTimeline": "سجل النشاط",
+        "reservationTypes": {
+          "regular": "عادي",
+          "birthday": "عيد ميلاد",
+          "anniversary": "ذكرى سنوية",
+          "corporate": "شركات",
+          "vip": "كبار الشخصيات",
+          "event": "فعالية",
+          "group": "مجموعة"
+        },
+        "sourceTypes": {
+          "walk_in": "حضور مباشر",
+          "phone": "هاتف",
+          "website": "الموقع الإلكتروني",
+          "mobile_app": "تطبيق الجوال",
+          "staff": "الموظفون",
+          "zomato": "زوماتو",
+          "swiggy": "سويجي",
+          "google": "جوجل"
+        }
+      },
+      "noReservationAvailable": "لا توجد حجوزات متاحة",
+      "noReservationFoundDesc": "لم يتم العثور على أي حجوزات للفلاتر المحددة.\nجرّب تغيير الفلاتر أو تحقق مرة أخرى لاحقًا."
+    },
+    "newReservation": {
+      "header": {
+        "title": "الحجز"
+      },
+      "timeSlotTitle": "اختر الفترة الزمنية",
+      "guestDetail": "تفاصيل الضيف",
+      "fullName": "الاسم الكامل",
+      "enterFullName": "أدخل الاسم الكامل",
+      "guestCount": "عدد الضيوف",
+      "enterGuestCount": "أدخل عدد الضيوف",
+      "mobile": "رقم الجوال",
+      "enterMobileNumber": "أدخل رقم الجوال",
+      "reservationType": "نوع الحجز",
+      "source": "مصدر الحجز",
+      "notes": "ملاحظات",
+      "addSpecialNotes": "أضف ملاحظات خاصة",
+      "createReservation": "إنشاء الحجز",
+      "reservationTypes": {
+        "regular": "عادي",
+        "birthday": "عيد ميلاد",
+        "anniversary": "ذكرى سنوية",
+        "corporate": "شركات",
+        "vip": "VIP",
+        "event": "فعالية",
+        "group": "مجموعة"
+      },
+      "sourceTypes": {
+        "walkIn": "دخول مباشر",
+        "phone": "هاتف",
+        "website": "موقع إلكتروني",
+        "mobileApp": "تطبيق الجوال",
+        "staff": "فريق العمل",
+        "zomato": "Zomato",
+        "swiggy": "Swiggy",
+        "google": "Google"
+      },
+      "successTitle": "تم {{status}} الحجز!",
+      "reservationCreatedSuccess": "تم {{status}} حجز {{name}} بنجاح.",
+      "error": {
+        "typeError": "لم يتم العثور على نوع الحجز.",
+        "sourceError": "لم يتم العثور على مصدر الحجز.",
+        "timeSlotError": "تعذر تحميل الفترات الزمنية المتاحة. يرجى المحاولة مرة أخرى."
+      }
+    },
+    "dashboard": {
+      "header": {
+        "greeting": "مرحبًا، ",
+        "role": "مالك المطعم"
+      },
+      "summary": {
+        "salesTitle": "مبيعات اليوم",
+        "periodThisWeek": "هذا الأسبوع"
+      },
+      "activeTables": {
+        "title": "الطاولات النشطة",
+        "viewAll": "عرض الكل",
+        "empty": "لا توجد طاولات نشطة الآن",
+        "unknownTime": "--:--"
+      },
+      "stats": {
+        "reservedTable": "الطاولات\nالمحجوزة",
+        "availableTables": "الطاولات\nالمتاحة",
+        "totalOrders": "إجمالي\nالطلبات"
+      },
+      "salesRevenue": {
+        "customToggle": "مخطط مخصص",
+        "giftedToggle": "مخطط Gifted",
+        "title": "إيرادات المبيعات",
+        "weekly": "أسبوعي",
+        "monthly": "شهري",
+        "weeklyEarning": "الأرباح الأسبوعية",
+        "monthlyEarning": "الأرباح الشهرية"
+      }
+    },
+    "tables": {
+      "tables": "الجداول",
+      "tableDesc": "إدارة جميع طاولات المطعم",
+      "allTables": "جميع الجداول",
+      "noTableAvailable": "لا توجد طاولات متاحة",
+      "statusGuide": "دليل الحالات",
+      "statusGuideDesc": "افهم حالة كل طاولة من خلال الألوان",
+      "available": "متاحة",
+      "availableDesc": "الطاولة فارغة وجاهزة للضيوف.",
+      "occupied": "مشغولة",
+      "occupiedDesc": "الطاولة مشغولة حاليًا.",
+      "reserved": "محجوزة",
+      "reservedDesc": "الطاولة محجوزة لضيف.",
+      "readyToPay": "جاهزة للدفع",
+      "readyToPayDesc": "تم إنشاء الفاتورة وهي جاهزة للدفع.",
+      "all": "الجميع",
+      "noTablesAvailable": "لا توجد طاولات متاحة",
+      "noTablesFoundDesc": "لم يتم العثور على طاولات للفلاتر المحددة.\nجرّب تغيير الفلاتر أو تحقق لاحقًا."
+    }
+  },
+  "waiter": {
+    "waiterList": {
+      "unlinkWaiter": "إلغاء ربط النادل",
+      "unlinkWaiterTitle": "إلغاء ربط النادل",
+      "unlinkWaiterSubtitle": "هل أنت متأكد أنك تريد إلغاء ربط النادل من المطعم؟",
+      "exitConfirmTitle": "تأكيد",
+      "exitConfirmSubtitle": "هل أنت متأكد أنك تريد الخروج",
+      "noActiveWaitersTitle": "لم يتم العثور على نُدُل نشطين.",
+      "noActiveWaitersSubtitle": "يرجى التواصل مع مسؤول المطعم."
+    },
+    "headerDescription": "اختر ملف تعريف النادل الخاص بك للمتابعة",
+    "waiterPasscode": {
+      "defaultWaiter": "النادل",
+      "enterPasscode": "أدخل رمز المرور",
+      "passcodeDesc": "تحقق من هويتك بإدخال رمز مرور النادل المكون من 6 أرقام.",
+      "login": "تسجيل الدخول",
+      "loginSuccess": "تم تسجيل الدخول بنجاح",
+      "loginFailed": "فشل تسجيل الدخول"
+    },
+    "dashboard": {
+      "header": {
+        "greeting": "مرحباً، {{name}}",
+        "role": "نادل"
+      },
+      "todayReservation": "حجوزات اليوم",
+      "activeOrders": "الطلبات النشطة",
+      "pendingOrders": "الطلبات المعلقة",
+      "activeTables": "الطاولات النشطة",
+      "viewAll": "عرض الكل"
+    },
+    "tables": {
+      "tables": "الجداول",
+      "tableDesc": "إدارة جميع طاولات المطعم",
+      "allTables": "جميع الجداول",
+      "noTableAvailable": "لا توجد طاولات متاحة",
+      "statusGuide": "دليل الحالات",
+      "statusGuideDesc": "افهم حالة كل طاولة من خلال الألوان",
+      "available": "متاحة",
+      "availableDesc": "الطاولة فارغة وجاهزة للضيوف.",
+      "occupied": "مشغولة",
+      "occupiedDesc": "الطاولة مشغولة حاليًا.",
+      "reserved": "محجوزة",
+      "reservedDesc": "الطاولة محجوزة لضيف.",
+      "readyToPay": "جاهزة للدفع",
+      "readyToPayDesc": "تم إنشاء الفاتورة وهي جاهزة للدفع.",
+      "all": "الجميع",
+      "bill": "فاتورة"
+    },
+    "menu": {
+      "foodMenu": "قائمة الطعام",
+      "veg": "نباتي",
+      "nonVeg": "غير نباتي",
+      "searchPlaceholder": "ابحث عن صنف طعام",
+      "noFoodItemsAvailable": "لا توجد أصناف طعام متاحة",
+      "item": "صنف",
+      "items": "أصناف",
+      "changeTable": "تغيير الطاولة",
+      "select": "تحديد",
+      "openTablesSheet": "فتح ورقة الجدول"
+    },
+    "order": {
+      "itemReadyForServe": "جاهز للتقديم",
+      "addItem": "إضافة عنصر",
+      "generateBill": "إنشاء الفاتورة",
+      "items": "العناصر",
+      "qty": "الكمية",
+      "emptyOrder": "لا توجد طلبات",
+      "orderSummary": "ملخص الطلب",
+      "guest_one": "{{count}} ضيف",
+      "guest_other": "{{count}} ضيوف",
+      "specialNotesOptional": "ملاحظات خاصة (اختياري)",
+      "confirmedOrder": "تأكيد الطلب",
+      "change": "تغيير",
+      "thankYouQuote": "“شكراً لك\nيسعدنا خدمتك.”",
+      "quantityLabel": "الكمية: {{count}}",
+      "orderConfirmed": "تم تأكيد الطلب!",
+      "selectTable": "اختر الطاولة",
+      "selectItemMessage": "اختر العناصر من القائمة لإنشاء طلبك.",
+      "statusUpdated": "فشل تحديث حالة الطلب. يرجى المحاولة مرة أخرى."
+    },
+    "generateBill": {
+      "tableNo": "رقم الطاولة",
+      "orderNo": "رقم الطلب",
+      "items": "العناصر",
+      "qty": "الكمية:",
+      "bill": "الفاتورة",
+      "subTotal": "المجموع الفرعي",
+      "cgst": "ضريبة CGST",
+      "sgst": "ضريبة SGST",
+      "discount": "الخصم",
+      "add": "إضافة",
+      "total": "الإجمالي",
+      "generatingBill": "جارٍ إنشاء الفاتورة",
+      "billGenerated": "تم إنشاء الفاتورة",
+      "successMessage": "تم إنشاء فاتورتك رقم {{billNumber}} بنجاح.",
+      "okay": "حسنًا",
+      "billGenerationFailed": "فشل إنشاء الفاتورة"
+    }
+  }
+}

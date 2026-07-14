@@ -1,0 +1,247 @@
+export const mockData = {
+  screen: {
+    defaultState: {
+      loading: false,
+      error: null,
+      response: null,
+    },
+    loadingState: {
+      loading: true,
+      error: null,
+      response: null,
+    },
+    bill_details: {
+      bill_id: 1,
+      bill_number: "BILL-1",
+      subtotal: 1000,
+      tax_amount: 180,
+      discount_amount: 0,
+      grand_total: 1180,
+      bill_status: "open",
+      is_paid: false,
+      payment_method: null,
+      paid_at: null,
+    },
+    orderItems: [
+      {
+        order_item_id: 11,
+        menu_item_id: 22,
+        item_name: "Paneer Tikka",
+        quantity: 2,
+        unit_price: 250,
+        total_price: 500,
+        item_status: "served",
+        image_url: "",
+        order_id: 5,
+        order_number: "ORD-5",
+        created_at: "2026-06-17T09:00:00.000Z",
+      },
+    ],
+    tableId: 7,
+    tableSessionId: 91,
+  },
+};
+
+export const mockData2 = {
+  hook: {
+    response: {
+      success: true,
+      table_id: 7,
+      table_session_id: 91,
+      customer_name: "Ava",
+      customer_mobile: "9999999999",
+      session_started_at: "2026-06-17T10:00:00.000Z",
+      session_date: "2026-06-17",
+      total_guest: "4",
+      cgst_percentage: 9,
+      sgst_percentage: 9,
+      restaurant_details: {
+        restaurant_name: "Under The Neem Trees",
+        full_address: "Opp. Mahila Municipal Garden, Rajpath Rangoli Rd, Bodakdev, Ahmedabad, Gujarat, India, 380059",
+        gstin: "29ABCDE1234F1Z5",
+        fssai: "12722001000000",
+        email: "undertheneemtrees@gmail.com",
+        phone: "9876543210",
+      },
+      bill_details: {
+        bill_id: 101,
+        bill_number: "BILL-101",
+        subtotal: 1000,
+        tax_amount: 180,
+        discount_amount: 0,
+        grand_total: 1180,
+        bill_status: "open",
+        is_paid: false,
+        payment_method: null,
+        paid_at: null,
+      },
+      orders: [
+        {
+          order_id: 11,
+          order_number: "ORD-11",
+          order_status: "served",
+          created_at: "2026-06-17T10:05:00.000Z",
+          items: [
+            {
+              order_item_id: 201,
+              menu_item_id: 301,
+              item_name: "Paneer Tikka",
+              quantity: 2,
+              unit_price: 250,
+              total_price: 500,
+              item_status: "served",
+            },
+          ],
+        },
+      ],
+    },
+    zeroTaxResponse: {
+      success: true,
+      table_id: 7,
+      table_session_id: 91,
+      customer_name: "Ava",
+      customer_mobile: "9999999999",
+      session_started_at: "2026-06-17T10:00:00.000Z",
+      session_date: "2026-06-17",
+      total_guest: "4",
+      cgst_percentage: 0,
+      sgst_percentage: 0,
+      restaurant_details: {
+        restaurant_name: "Under The Neem Trees",
+        full_address: "Opp. Mahila Municipal Garden, Rajpath Rangoli Rd, Bodakdev, Ahmedabad, Gujarat, India, 380059",
+        gstin: "29ABCDE1234F1Z5",
+        fssai: "12722001000000",
+        email: "undertheneemtrees@gmail.com",
+        phone: "9876543210",
+      },
+      bill_details: {
+        bill_id: 101,
+        bill_number: "BILL-101",
+        subtotal: 1000,
+        tax_amount: 180,
+        discount_amount: 0,
+        grand_total: 1180,
+        bill_status: "open",
+        is_paid: false,
+        payment_method: null,
+        paid_at: null,
+      },
+      orders: [],
+    },
+  },
+};
+
+export const billSummaryMock = {
+  subtotal: 1000,
+  cgstAmount: 90,
+  sgstAmount: 90,
+  taxAmount: 180,
+  grandTotal: 1180,
+};
+
+export const billDetailsMock = {
+  bill_id: 2,
+  bill_number: "BILL-2",
+  subtotal: 200,
+  tax_amount: 36,
+  discount_amount: 20,
+  grand_total: 216,
+  bill_status: "paid",
+  is_paid: true,
+  payment_method: "Cash",
+  paid_at: "2026-06-17T11:00:00.000Z",
+};
+
+export const billDetailsMock2 = {
+  subtotal: 200,
+  cgstAmount: 0,
+  sgstAmount: 0,
+  taxAmount: 0,
+  grandTotal: 200,
+};
+
+export const orderItemsMock = [
+  {
+    order_item_id: 11,
+    menu_item_id: 22,
+    item_name: "Tikka with Image",
+    quantity: 2,
+    unit_price: 250,
+    total_price: 500,
+    item_status: "served",
+    image_url: "https://example.com/item.png",
+    order_id: 5,
+    order_number: "ORD-5",
+    created_at: "2026-06-17T09:00:00.000Z",
+  },
+  {
+    order_item_id: 12,
+    menu_item_id: 23,
+    item_name: "Tikka without Image",
+    quantity: 1,
+    unit_price: 150,
+    total_price: 150,
+    item_status: "served",
+    image_url: "",
+    order_id: 5,
+    order_number: "ORD-5",
+    created_at: "2026-06-17T09:00:00.000Z",
+  },
+];
+
+export const billSummaryResponseMock = {
+  success: true,
+  table_id: 0,
+  table_session_id: 0,
+  customer_name: "",
+  customer_mobile: "",
+  session_started_at: "",
+  session_date: "",
+  total_guest: "",
+  cgst_percentage: 0,
+  sgst_percentage: 0,
+  restaurant_details: {
+    restaurant_name: "",
+    full_address: "",
+    gstin: "",
+    fssai: "",
+    email: "",
+    phone: "",
+  },
+  bill_details: null as any,
+  orders: [],
+};
+
+export const generateHtmlMock = {
+  billNumber: "BILL-101",
+  tableId: 7,
+  customerName: "Ava",
+  customerMobile: "9999999999",
+  sessionStartedAt: "2026-06-17T10:00:00.000Z",
+  totalGuest: "4",
+  cgstPercentage: 0,
+  sgstPercentage: 0,
+  restaurant_details: {
+    restaurant_name: "Under The Neem Trees",
+    full_address: "Opp. Mahila Municipal Garden, Rajpath Rangoli Rd, Bodakdev, Ahmedabad, Gujarat, India, 380059",
+    gstin: "29ABCDE1234F1Z5",
+    fssai: "12722001000000",
+    email: "undertheneemtrees@gmail.com",
+    phone: "9876543210",
+  },
+  items: [],
+  summary: {
+    subtotal: 0,
+    cgstAmount: 0,
+    sgstAmount: 0,
+    taxAmount: 0,
+    grandTotal: 0,
+  },
+};
+
+export const billPayMock = {
+  success: true,
+  message: "Payment completed",
+  bill_id: 4,
+  paid_at: "2026-06-25T13:43:30+05:30",
+};

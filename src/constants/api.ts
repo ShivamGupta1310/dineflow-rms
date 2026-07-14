@@ -1,0 +1,37 @@
+export const API_ENDPOINTS = {
+  AUTH: {
+    LOGOUT: "v1/rpc/logout",
+    VERIFY_OWNER_OTP: "v1/rpc/verify_owner_otp",
+    SEND_OWNER_OTP: "v1/rpc/generate_owner_otp",
+    GET_STAFFS: "v1/rpc/get_staff_by_role",
+    GET_STAFF_BY_ROLE: "v1/rpc/get_staff_by_role",
+    VERIFY_WAITER_PASSCODE: "v1/rpc/validate_staff_passcode",
+    UNLINK_RESTAURANT: "v1/rpc/unlink_restaurant",
+  },
+  COMMON: {
+    ACTIVE_TABLES: "v1/rpc/get_restaurant_tables",
+  },
+  OWNER: {
+    DASHBOARD: "v1/rpc/get_owner_dashboard",
+    GET_TABLE_ORDERS: "v1/rpc/get_table_orders",
+    RESERVATIONS: "v1/rpc/get_all_reservations",
+    RESERVATION_META: "v1/rpc/get_reservation_meta",
+    RESERVATION_DETAILS: "v1/rpc/get_reservation_details",
+    UPDATE_RESERVATION: "v1/rpc/update_reservation",
+    MARK_BILL_PAID: "v1/rpc/mark_bill_paid",
+    CREATE_RESERVATION: "v1/rpc/create_reservation",
+    UPDATE_RESERVATION_STATUS: "v1/rpc/update_reservation_status",
+    GET_AVAILABLE_SLOTS: "v1/rpc/get_available_slots",
+    GET_AVAILABLE_TABLES: "v1/rpc/get_available_tables",
+    RESERVE_TABLE: "v1/rpc/confirm_reservation_with_table",
+  },
+  WAITER: {
+    DASHBOARD: "v1/rpc/get_waiter_dashboard",
+    GET_MENU_CONFIG: "v1/rpc/get_menu_config",
+    GET_MENU_ITEMS: "v1/rpc/get_menu_items",
+    GET_TABLE_ORDERS: "v1/rpc/get_table_orders",
+    CREATE_ORDER: "v1/rpc/create_order",
+    UPDATE_ORDER_STATUS: "v1/rpc/update_order_status",
+    GENERATE_BILL: "/v1/rpc/generate_bill",
+  },
+} as const;
